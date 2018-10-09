@@ -8,12 +8,17 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        Book book = new Book();
+        Book1 book1 = new Book1();
         //代理对象
-        BookConcern proxy = new BookProxy(book).getProxyInstance();
+        BookConcern proxy = new BookProxy(book1).getProxyInstance();
         //执行代理方法
         proxy.function1();
-        proxy.function2();
+
+        Book2 book2 = new Book2();
+        //代理对象
+        BookConcern proxy2 = new BookProxy(book2).getProxyInstance();
+        //执行代理方法
+        proxy2.function2();
     }
 
     /**
