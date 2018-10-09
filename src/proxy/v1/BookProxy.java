@@ -1,7 +1,7 @@
 package proxy.v1;
 
 /**
- * ${DESCRIPTION}
+ * 代理类
  *
  * @author liuh 【liuh@mail.joyowo.com】
  * @date 2018-10-09 14:31

@@ -1,7 +1,7 @@
 package proxy.v1;
 
 /**
- * ${DESCRIPTION}
+ * 具体实现
  *
  * @author liuh 【liuh@mail.joyowo.com】
  * @date 2018-10-08 15:57
