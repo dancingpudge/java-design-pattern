@@ -15,4 +15,14 @@ public class Main {
         proxy.function1();
         proxy.function2();
     }
+
+    /**
+     * 总结一下，一个典型的动态代理可分为以下四个步骤：
+     *
+     * 创建抽象角色
+     * 创建真实角色
+     * 通过实现InvocationHandler接口创建中介类
+     * 通过场景类，动态生成代理类
+     */
+
 }
