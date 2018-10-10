@@ -1,6 +1,6 @@
 package proxy.v1;
 
-public class Main {
+public class ProxyV1Main {
 
     /**
      * 最简单的静态代理

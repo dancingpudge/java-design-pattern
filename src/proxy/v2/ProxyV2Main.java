@@ -1,6 +1,6 @@
 package proxy.v2;
 
-public class Main {
+public class ProxyV2Main {
 
     /**
      * 动态代理
