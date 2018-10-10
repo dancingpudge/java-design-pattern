@@ -3,5 +3,5 @@
 *.class
 .idea/
 /out/
-design-pattern-demo.iml
+design-pattern.iml
 
