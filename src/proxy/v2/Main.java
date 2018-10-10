@@ -13,12 +13,6 @@ public class Main {
         BookConcern proxy = new BookProxy(book1).getProxyInstance();
         //执行代理方法
         proxy.function1();
-
-        Book2 book2 = new Book2();
-        //代理对象
-        BookConcern proxy2 = new BookProxy(book2).getProxyInstance();
-        //执行代理方法
-        proxy2.function2();
     }
 
     /**
