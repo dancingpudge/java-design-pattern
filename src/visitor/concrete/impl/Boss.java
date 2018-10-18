@@ -15,7 +15,10 @@ public class Boss implements AccountBookViewer {
 
     private double totalConsume;
 
-    //老板只关注一共花了多少钱以及一共收入多少钱，其余并不关心
+
+    /**
+     * 老板只关注一共花了多少钱以及一共收入多少钱，其余并不关心
+     */
     @Override
     public void view(ConsumeBill bill) {
         totalConsume += bill.getAmount();

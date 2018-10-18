@@ -10,9 +10,13 @@ import visitor.element.impl.IncomeBill;
  * @date 2018-10-18 10:51
  **/
 public interface AccountBookViewer {
-    //查看消费的单子
+    /**
+     * 查看消费的单子
+     */
     void view(ConsumeBill bill);
 
-    //查看收入的单子
+    /**
+     * 查看收入的单子
+     */
     void view(IncomeBill bill);
 }
