@@ -1,4 +1,7 @@
-package Visitor;
+package visitor;
+
+import visitor.concrete.AccountBookViewer;
+import visitor.element.Bill;
 
 import java.util.ArrayList;
 import java.util.List;

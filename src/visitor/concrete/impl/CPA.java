@@ -1,4 +1,8 @@
-package Visitor;
+package visitor.concrete.impl;
+
+import visitor.concrete.AccountBookViewer;
+import visitor.element.impl.ConsumeBill;
+import visitor.element.impl.IncomeBill;
 
 /**
  * ${DESCRIPTION}
